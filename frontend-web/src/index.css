@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+#reader {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#reader video {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+.mirror-view video {
+  transform: scaleX(-1);
+}
